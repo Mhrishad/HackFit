@@ -17,5 +17,6 @@ Route::group([
     $router->resource('units', UnitController::class);
     $router->resource('food-items', FoodItemController::class);
     $router->resource('gd', GeneralEducationController::class);
+    $router->resource('plan-order', PlanOrderController::class);
 
 });

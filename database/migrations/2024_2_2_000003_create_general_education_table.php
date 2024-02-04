@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('general_education', function (Blueprint $table) {
             $table->id();
-            $table->text('title');
+            $table->string('title');
             $table->text('details');
             $table->text('overview');
             $table->text('home_care')->nullable();
